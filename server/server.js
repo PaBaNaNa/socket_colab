@@ -2,15 +2,12 @@
 const mongoose = require("mongoose");
 const Document = require("./Document");
 
-mongoose.connect(
-  "MONGO_URI",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
-  }
-);
+mongoose.connect("MONGO_URI", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+  useCreateIndex: true,
+});
 
 // using socket.io
 const io = require("socket.io")(3001, {
