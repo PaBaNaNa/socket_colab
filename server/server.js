@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Document = require("./Document");
 
 mongoose.connect(
-  "mongodb+srv://johnson:1234@cluster0.zghhy6e.mongodb.net/test",
+  "MONGO_URI",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
