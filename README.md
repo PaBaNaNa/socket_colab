@@ -13,4 +13,8 @@ tree
 
 ## Demo
 
-![video](Demo.mov)
+Demo
+
+<!-- ![video](Demo.mov) -->
+
+![image](Demo.png)
